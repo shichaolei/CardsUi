@@ -1,0 +1,91 @@
+.container {
+    padding: 3em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    width: 100%;
+    padding-top: 5em;
+}
+
+.cards-form{
+    width: 50%;
+    padding: 2em;
+}
+
+.cards-grid{
+    width: 50%;
+    padding: 2em;
+}
+
+form .cards-form{
+    margin-bottom: 1em;
+}
+
+form label{
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+form input[type="text"]{
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+.form-group-inline
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form-group-inline div{
+    width: 30%;
+}
+
+form button{
+    background-color: black;
+    padding: 0.5em;
+    color: white;
+    outline:auto;
+    border-radius: 5px;
+    cursor: pointer;
+    font: 1.2em sans-serif;
+}
+
+.card-row{
+    width: 100%;
+    display: flex;
+    margin-bottom: 0.2em;
+}
+
+.card-row-details{
+    background-color:#eee;
+    flex-grow:1;
+    padding: 0.5e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+}
+.card-row-action{
+    display: flex;
+    align-items: center;
+}
+.card-row-action a{
+    display:block;
+    cursor: pointer;
+    padding: 1em;
+    background-color: red;
+    color: white;
+}
